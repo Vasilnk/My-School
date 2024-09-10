@@ -48,10 +48,10 @@ class _SplashScreenState extends State<SplashScreen> {
                 width: 110,
                 height: 110,
                 child: Image.asset('assets/images/images-modified.png')),
-            SizedBox(
+            const SizedBox(
               height: 10,
             ),
-            Text(
+            const Text(
               'My School',
               style: TextStyle(
                   fontWeight: FontWeight.bold,

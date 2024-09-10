@@ -278,7 +278,7 @@ class _EditStudentPageState extends State<EditStudentPage> {
                               backgroundColor:
                                   WidgetStateProperty.all(Colors.green),
                             ),
-                            child: Text('Update'),
+                            child: const Text('Update'),
                           ),
                           const SizedBox(width: 10),
                           TextButton(
